@@ -1,6 +1,6 @@
 package week01.vars.input.output;
 
-public class TheMathClass {
+public class W1_8_TheMathClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

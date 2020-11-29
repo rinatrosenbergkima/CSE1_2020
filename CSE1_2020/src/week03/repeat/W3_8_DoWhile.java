@@ -7,13 +7,13 @@ public class W3_8_DoWhile {
 		Scanner in = new Scanner (System.in); //create a Scanner object 
 		String enterPassword;
 		String thePassword ="Open sesame";
-		boolean bGuess = false;
+		boolean bGuessed = false;
 		
-		while (!bGuess) {
+		while (!bGuessed) {
 			System.out.println("Say the magic words:");
 			enterPassword = in.nextLine(); // import a sentence
 			if (thePassword.equals(enterPassword)) {
-				bGuess=true;
+				bGuessed=true;
 				System.out.println("YESSSSSSSS!!!!!!");
 			}
 			else

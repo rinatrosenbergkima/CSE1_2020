@@ -1,6 +1,6 @@
 package week01.vars.input.output;
 
-public class W1_8_test {
+public class W1_Test {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int x=90, y=91;

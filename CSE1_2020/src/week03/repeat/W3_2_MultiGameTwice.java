@@ -32,7 +32,5 @@ public class W3_2_MultiGameTwice {
 		else {
 			System.out.println ("Nope. The correct answer is "+x*y);
 		}
-			
-
 	}
 }

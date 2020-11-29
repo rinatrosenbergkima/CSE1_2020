@@ -8,7 +8,7 @@ public class W3_4_MultiGameForCount {
 		Scanner in = new Scanner (System.in); //create a Scanner object 
 		Random rnd = new Random();  //create a Random object
 		int x,y,answer;
-		int numCorrect=0;
+		int counterCorrect=0;
 		
 		for (int i=0; i<10; i++)
 		{
@@ -18,17 +18,17 @@ public class W3_4_MultiGameForCount {
 			answer = in.nextInt(); //input the user answer
 			if (answer== x*y) {
 				System.out.println ("Very good!");
-				numCorrect++;
+				counterCorrect++;
 			}
 			else {
 				System.out.println ("Nope. The correct answer is "+x*y);
 			}
 		}
-		if (numCorrect>7)
-			System.out.print("Super! You answered "+numCorrect+ "/10 correctly");
-		else if (numCorrect>5)
-			System.out.print("Nice! You answered "+numCorrect+ "/10 correctly");
+		if (counterCorrect>7)
+			System.out.print("Super! You answered "+counterCorrect+ "/10 correctly");
+		else if (counterCorrect>5)
+			System.out.print("Nice! You answered "+counterCorrect+ "/10 correctly");
 		else
-			System.out.print("You answered "+numCorrect+ "/10 correctly. Practice some more");
+			System.out.print("You answered "+counterCorrect+ "/10 correctly. Practice some more");
 	}
 }

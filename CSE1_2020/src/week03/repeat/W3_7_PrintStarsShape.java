@@ -1,6 +1,6 @@
 package week03.repeat;
 
-public class W3_7_PrintStartsShape {
+public class W3_7_PrintStarsShape {
 	public static void main(String[] args) {
 		for (int i=4;i>-5; i--) {
 			for (int j=0;j<Math.abs(i)+1; j++ ) {

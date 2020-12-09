@@ -2,7 +2,7 @@ package topic2.conditions;
 
 import java.util.Scanner;
 
-public class W2_2_IfElseDrink {
+public class Topic2_2_IfElseDrink {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

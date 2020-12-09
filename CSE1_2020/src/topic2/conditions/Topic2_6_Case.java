@@ -3,7 +3,7 @@ package topic2.conditions;
 import java.util.Random;
 import java.util.Scanner;
 
-public class W2_6_Case {
+public class Topic2_6_Case {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int month, year;

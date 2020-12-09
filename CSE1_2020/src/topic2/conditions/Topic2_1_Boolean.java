@@ -1,6 +1,6 @@
 package topic2.conditions;
 
-public class W2_1_Boolean {
+public class Topic2_1_Boolean {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

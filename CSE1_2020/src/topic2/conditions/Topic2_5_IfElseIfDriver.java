@@ -2,7 +2,7 @@ package topic2.conditions;
 
 import java.util.Scanner;
 
-public class W2_5_IfElseIfDriver {
+public class Topic2_5_IfElseIfDriver {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner in = new Scanner (System.in); //create a scanner 
@@ -13,7 +13,8 @@ public class W2_5_IfElseIfDriver {
 		System.out.println(license);
 		if (age >= 17)
 		{
-			if (license.equals("yes"))
+			//if (license.equals("yes"))
+			if (license=="yes")
 			{
 				System.out.println("You can drive");
 			}

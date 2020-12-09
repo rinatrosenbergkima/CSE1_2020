@@ -1,6 +1,6 @@
 package topic3.repeat;
 
-public class W3_6_PrintTriangle {
+public class Topic3_6_PrintTriangle {
 	public static void main(String[] args) {
 		for (int i=0;i<5; i++) {
 			for (int j=0;j<i+1; j++ ) {

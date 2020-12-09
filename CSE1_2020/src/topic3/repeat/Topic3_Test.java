@@ -2,7 +2,7 @@ package topic3.repeat;
 
 import java.util.Scanner;
 
-public class W3_Test {
+public class Topic3_Test {
 	public static void main(String[] args) {
 		//Q1
 		for (int i=1; i<200; i=i*2) {

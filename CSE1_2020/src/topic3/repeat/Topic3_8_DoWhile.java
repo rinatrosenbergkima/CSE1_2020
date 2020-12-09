@@ -2,7 +2,7 @@ package topic3.repeat;
 
 import java.util.Scanner;
 
-public class W3_8_DoWhile {
+public class Topic3_8_DoWhile {
 	public static void main(String[] args) {
 		Scanner in = new Scanner (System.in); //create a Scanner object 
 		String enterPassword;

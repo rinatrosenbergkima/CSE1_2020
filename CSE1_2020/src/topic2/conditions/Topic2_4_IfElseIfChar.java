@@ -2,7 +2,7 @@ package topic2.conditions;
 
 import java.util.Scanner;
 
-public class W2_4_IfElseIfChar {
+public class Topic2_4_IfElseIfChar {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

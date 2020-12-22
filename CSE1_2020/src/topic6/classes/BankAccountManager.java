@@ -11,9 +11,12 @@ public class BankAccountManager {
 	    long accountID = read.nextLong();
 	    System.out.println("Enter initial deposit:");
 	    double initialDeposit = read.nextDouble(); 
-	    BankAccount ba = new BankAccount(name, accountID, initialDeposit); 
+	    BankAccount myBankAccount1 = new BankAccount(name, accountID, initialDeposit); 
 	    System.out.println("Enter amound to withdraw");
-	    ba.withdraw(read.nextDouble());
+	    myBankAccount1.withdraw(read.nextDouble());
+	    
+	    myBankAccount1.setOwnerName("Rinat2");
+	    
 	}
 
 }

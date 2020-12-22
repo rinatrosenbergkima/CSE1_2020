@@ -21,31 +21,6 @@ class BankAccount {
 	    this.balance = balance; 
 	  }
 	  
-	  //Update methods ("PEULOT IDKUN")
-	  public void setOwnerName (String ownerName) {
-		  this.ownerName = ownerName;
-	  }
-	  
-	  public void setAccountID (long accountID) {
-		  this.accountID = accountID;
-	  }
-	  
-	  public void setBalance (double balance) {
-		  this.balance = balance;
-	  }
-	  //Access methods: ("PEULOT GISHA")
-	  public String getOwnerName () {
-		  return this.ownerName;
-	  }
-	  
-	  public long getAccountID () {
-		  return this.accountID;
-	  }
-	  
-	  public double getBalance () {
-		  return this.balance;
-	  }
-	  
 	  //Deposit adds an amount to the balance
 	  public void deposit(double amount){
 	     this.balance += amount;

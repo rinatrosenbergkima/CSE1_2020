@@ -15,7 +15,7 @@ public class BankAccountManager {
 	    System.out.println("Enter amound to withdraw");
 	    myBankAccount1.withdraw(read.nextDouble());
 	    
-	    myBankAccount1.setOwnerName("Rinat2");
+	    System.out.println(myBankAccount1);
 	    
 	}
 

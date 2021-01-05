@@ -64,6 +64,12 @@ class BankAccount {
 	    }
 	    return withdrawn;
 	  }
+	  
+	    public String toString() {
+	        return "Account Id: "+ this.accountID +
+	        		", Owner name: " + this.ownerName + 
+	        		", Balance:" + this.balance;
+	    }
 }
 
 
